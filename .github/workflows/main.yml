@@ -1,10 +1,10 @@
-YAML
 name: Build Shaxsiy Moliya APK
 
 on:
   workflow_dispatch:
   push:
-    branches: [ "**" ]
+    branches:
+      - "**"
 
 jobs:
   build:
